@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel - Explore The World</title>
+    <link rel="stylesheet" type="text/css" href="secondpage.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Futura+Condensed:bold&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div id="hero-background1" class="background"></div>
+    <div id="hero-background2" class="background"></div>
+
+    <video muted id="hero-video">
+        <source src="../src/media/secondvid.mp4" type="video/mp4">
+    </video>
+
+    <div id="content">
+    </div>
+
+    <form id="search-menu">
+        <h1>Please fill out the form</h1>
+        <div class="input-control">
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="Joahnnisburg">Johannesburg</option>
+                <option value="Cape town">Cape Town</option>
+            </select>
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="arrival-date">Arrival Date</label>
+            <input id="arrival-date" name="arrival-date" type="date">
+            <div class="error"></div>
+        </div>
+
+        <div class="input-control">
+            <label for="time">Number of People</label>
+            <input id="time" name="time" type="text">
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="text">
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="text">
+            <div class="error"></div>
+        </div>
+        <button type="submit">Send Inquiry</button>
+    </form>
+    <div id="content-msg">
+    </div>
+
+    <script src="secondpage.js"></script>
+</body>
+
+</html>
+
+
+<!--- npx webpack --config webpack.config.js --watch -->
+<!--- npx webpack --config webpack.config.js --watch --env page=secondpage -->
