@@ -117,4 +117,4 @@ This project isn’t just a website—it’s a statement. It’s a demonstration
 
 ---
 
-### 🌍 Made with ❤️ by [Your Name]
+### 🌍 Made with ❤️ by paulp111
